@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(239, 245, 248);
+}
+
+h4{
+    color: red;
+}
+
+.container{
+    width: 50%;
+    background-color:rgb(248, 189, 209);
+    padding: 20px;
+}
+
+
+
+input[type="text"], input[type="email"], textarea{
+    width: 300px;
+    padding: 5px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+input[type="submit"]{
+    width: 20%;
+    padding: 10px 30px;
+    border-radius: 3px;
+    background-color: rgb(215, 253, 172);
+}
+
+span{
+    color: red;
+    margin-left: 5px;
+}
+table{
+    border-color: white;
+}
+th, td {
+    padding: 8px;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+
